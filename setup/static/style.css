@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(to right,  rgb(208, 208, 208), rgb(128, 128, 128));
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+   background-color: white;
+   min-width: 600px;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   border-radius: 20px;
+   margin-top: 30px;
+}
+h1{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-weight: 800;
+    text-align: center;
+    color: rgb(46, 46, 46);
+}
+hr{
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(126, 126, 126), rgb(71, 71, 71));
+}
+h2{
+    color: rgb(46, 46, 46);
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    text-align: center;
+
+}
+
+.icon{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: rgb(71, 71, 71);
+}
+.input{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb(71, 71, 71); /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto no botão */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 50px;
+
+
+}
+.botao{
+    text-align: center;
+}
+h4{
+    color: rgb(71, 71, 71);
+    text-align: center;
+}
+label{
+    width: 100%;
+}
